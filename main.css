@@ -1,3 +1,6 @@
+body{
+  overflow-y: scroll;
+}
 .ps{
   width: 100%;
   /* position: sticky; */
@@ -25,6 +28,9 @@
 .mt{
   margin-top:3.8rem;
 }
+.mt-2{
+  margin-top: 5rem !important;;
+}
 .j-around{
   display: flex;
   justify-content: space-around !important;
@@ -35,6 +41,13 @@
 }
 .shadow{
   box-shadow: 10px 10px 30px 30px #eff1f3 !important;
+}
+.d-block{
+  display: inline-block !important;
+  width: 50% !important;
+  height: 1px;
+  background-color: #65aef2;
+  margin-top: 1.5rem;
 }
 .hv{
   transition-duration: .1s;
@@ -48,11 +61,41 @@
 	border-radius: 5px;
 	cursor: pointer;
 }
+.hv-2{
+  transition-duration: .5s !important;
+  /* transition-delay: .1s; */
+}
+.hv-2:hover{
+  color: #fda729 !important;
+}
+.hv-3{
+  box-shadow: 10px 10px 30px 30px #eff1f3 !important;
+}
+.hv-3:hover{
+    box-shadow: 10px 10px 10px 10px #eff1f3 !important;
+}
+.hv-4{
+  transition: .1s all;
+}
+.hv-4:hover{
+  scale: 1.01;
+  cursor: pointer;
+  box-shadow: 0px 2px 10px 0px;
+
+}
+.fs-2{
+  font-size: 14px;
+}
 @media (max-width: 767.98px) {
   .fs {
     margin-top: -50px;
-    font-size: 45px;
-    text-align: center;
+    font-size: 40px;
+    margin-left: 80px !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .fs-3 {
+    margin-left: 15.666667% !important;
   }
 }
 .owl-carousel.home-slider .owl-dots {
